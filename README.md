@@ -1,4 +1,4 @@
-# Image_generator_by_AI
+# DreamScape
 An AI-powered image generator that creates visually appealing images based on user input.This project leverages advanced machine learning algorithms to produce unique images from textual prompts, making it suitable for a range of creative and commercial applications.
 
 Features
