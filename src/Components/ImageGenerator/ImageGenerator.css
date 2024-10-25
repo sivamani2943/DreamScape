@@ -1,0 +1,86 @@
+/* General Styling */
+.ai-image-generator {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+
+
+/* Heading Styling */
+.header {
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.header span{
+    color: #1bb7de;
+    font-weight: 600;
+}
+
+
+.search-box{
+    display: flex;
+    width: 1000px;
+    height: 95px;    
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: #1f3540;
+} 
+
+
+.search-input{
+    width: 600px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 35px;
+    margin-right: 35px;
+} 
+
+.search-input::placeholder{
+    color: white;
+}
+
+.generate-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 85px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: #1bb7de;
+    cursor: pointer;
+}
+
+
+/* Image Container */
+.image {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
